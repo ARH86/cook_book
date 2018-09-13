@@ -1,6 +1,6 @@
 
- json.ingredients recipe.ingredients
- json.directions recipe.directions
+json.ingredients recipe.ingredients
+json.directions recipe.directions
 json.id recipe.id
 json.title recipe.title
 json.chef recipe.chef
@@ -10,9 +10,9 @@ json.link "http://localhost:3000/api/recipes/#{recipe.id}"
 
 
 json.formatted do 
-json.created_at recipe.friendly_created_at
-json.prep_time recipe.friendly_prep_time
-json.ingredients recipe.ingredients_list
-json.directions recipe.directions_list
+  json.created_at recipe.friendly_created_at
+  json.prep_time recipe.friendly_prep_time
+  json.ingredients recipe.ingredients_list
+  json.directions recipe.directions_list
 end
   

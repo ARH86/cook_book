@@ -17,7 +17,6 @@ class Api::RecipesController < ApplicationController
   def create
     @recipe = Recipe.new(
                          title: params[:title],
-                         chef: params[:chef],
                          ingredients: params[:ingredients],
                          directions: params[:directions],
                          image_url: params[:image_url],
