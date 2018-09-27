@@ -6,7 +6,7 @@ json.title recipe.title
 json.chef recipe.chef
 json.image_url recipe.image_url
 json.prep_time recipe.prep_time
-json.link "http://localhost:3000/api/recipes/#{recipe.id}"
+# json.link "http://localhost:3000/api/recipes/#{recipe.id}"
 
 
 json.formatted do 
